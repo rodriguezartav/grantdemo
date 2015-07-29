@@ -1,0 +1,15 @@
+/*Fonts*/
+
+@import url("./bootstrap.css");
+
+body{
+	background-color: #fff;
+	color: #333;
+}
+
+.container{
+	max-width: 960px;
+	margin: 0px auto;
+}
+
+@import url("./colors.css");

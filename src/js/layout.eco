@@ -1,0 +1,22 @@
+<br/>
+
+	<h1 class="blue-dark">How are groups divided?</h1>
+	<p>Groups are a custom object representing a dataset for the purpose of this demo.</p>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<div class="row">
+		
+		<div class="col-md-6">
+			<div class="graph"></div>
+		</div>
+
+		<div class="col-md-6">
+			
+			<div class="detail"></div>
+
+		</div>
+
+	</div>
+
