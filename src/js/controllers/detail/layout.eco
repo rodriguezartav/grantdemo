@@ -1,17 +1,17 @@
 <% numeral = require("numeral") %>
 
-<h2 class="blue">Details <%= @group.type.toUpperCase() %></h2>
-<p class="gray-dark" >listing of all groups with amounts</p>
+<div class="blue subtitle">Details <%= @group.type.toUpperCase() %></div>
+<div class=" text gray-dark" >listing of all groups with amounts</div>
 
 
 <ul class="list-group">
 <% for group in @groups: %>
 
 	<li class="list-group-item"> 
-		<h4>
+		<strong>
 			<%= group.Name %>
 			<span class="pull-right"><%= numeral(group.Amount__c).format("0,0.00") %></span>
-		</h4>
+		</strong>
 		
 	</li>
 	

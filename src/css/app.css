@@ -12,4 +12,30 @@ body{
 	margin: 0px auto;
 }
 
+.title{
+	font-size: 18pt;
+	line-height: 18pt;
+}
+
+.subtitle{
+	font-size: 15pt;
+}
+
+.text{
+	font-size: 12pt;
+}
+
+ul.list-group{
+
+}
+
+ul.list-group li.list-group-item{
+	margin-left: 0px;
+	font-size: 13pt;
+}
+
+ul.list-group li.list-group-item span{
+	font-weight: 300;
+}
+
 @import url("./colors.css");

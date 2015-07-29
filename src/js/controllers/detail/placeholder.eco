@@ -1,5 +1,5 @@
-<h2 class="blue">Details</h2>
+<div class="blue subtitle">Details</div>
 
 
-<p>Click on a bar to view details about that type</p>
+<div class="text">Click on a bar to view details about that type</div>
 

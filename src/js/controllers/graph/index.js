@@ -93,12 +93,16 @@ Graph.prototype.render = function(data){
       .attr("transform", "translate(0," + ( height - 33 ) + ")")
       .attr("class","fill-gray-dark")
       .call(xAxis)
+      .selectAll("text")
+      .style("font-size", "11pt");
 
  		svg.append("g")
       .attr("class", "y axis")
       .attr("transform", "translate(20," +  ( -1 *  margin.top  ) + ")")
       .attr("class","fill-gray-dark")
       .call(yAxis)
+      .selectAll("text")
+      .style("font-size", "11pt");
 
 
 }

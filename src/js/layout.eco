@@ -1,11 +1,10 @@
 <br/>
 
-	<h1 class="blue-dark">How are groups divided?</h1>
-	<p>Groups are a custom object representing a dataset for the purpose of this demo.</p>
+	<h1 class=" title blue-dark">How are groups divided?</div>
+	<div class="text">Groups are a custom object representing a dataset for the purpose of this demo.</div>
 	<br/>
 	<br/>
-	<br/>
-	<br/>
+	
 	<div class="row">
 		
 		<div class="col-md-6">
