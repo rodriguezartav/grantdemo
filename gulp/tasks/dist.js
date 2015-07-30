@@ -1,8 +1,8 @@
 var gulp = require('gulp');
 var notify = require("gulp-notify");
 
-var VFSR = require("3vot-clay/plugins/staticresource");
-var VFT = require("3vot-clay/plugins/transform");
+var VFSR = require("clay-cli/plugins/staticresource");
+var VFT = require("clay-cli/plugins/transform");
 
 var handleErrors = require('../util/handleErrors');
 

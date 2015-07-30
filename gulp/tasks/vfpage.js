@@ -1,7 +1,7 @@
 var gulp = require('gulp');
 var notify = require("gulp-notify");
 
-var VFT = require("3vot-clay/plugins/transform");
+var VFT = require("clay-cli/plugins/transform");
 var handleErrors = require('../util/handleErrors');
 
 gulp.task('vfpage', function() {
