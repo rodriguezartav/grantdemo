@@ -34,6 +34,12 @@ Graph.prototype.render = function(data){
   //Data
   var chartdata =  _.values(data);
  
+  chartdata.sort( function(a,b){
+    if( a.type > b.type ) return 1;
+    else if( a.type < b.type ) return -1;
+    return 0;
+  })
+
  	//Standard way of setting up dimensions
   var margin = { top: 25, right: 0, bottom: 50, left: 40 };
 
@@ -84,8 +90,12 @@ Graph.prototype.render = function(data){
     .on("click", function(d,i){ 
       Group.trigger("SELECT", d);
     })
-
-
+    .on("mouseover", function(d,i){ 
+      d3.select(this).classed("fill-blue",false).classed("fill-red",true);
+    })
+    .on("mouseout", function(d,i){ 
+      d3.select(this).classed("fill-red",false).classed("fill-blue",true);
+    })
 
   
     svg.append("g")
